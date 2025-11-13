@@ -19,12 +19,12 @@ build_histogram = st.checkbox('Criar um histograma')
 
 if build_histogram:
     st.write('Criando um histograma para a coluna odometer')
-    fig = px.histogram(car_data, x="odometer")
+    fig1 = px.histogram(car_data, x="odometer")
     st.plotly_chart(fig, use_container_width=True)
 
 scatter_button = st.button('Criar gráfico de dispersão')
 
 if scatter_button:
     st.write('Criando um gráfico de dispersão para odometer vs preço')
-    fig = px.scatter(car_data, x="odometer", y="price")
+    fig2 = px.scatter(car_data, x="odometer", y="price")
     st.plotly_chart(fig, use_container_width=True)
