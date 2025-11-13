@@ -8,5 +8,5 @@ Este aplicativo web foi desenvolvido para analisar dados de anúncios de vendas 
 - Interface intuitiva com botões e controles
 
 ## Acesse o aplicativo
-http://localhost:8501/
+https://sprint5-n9b1.onrender.com | http://localhost:8501/
 
